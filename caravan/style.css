@@ -1,0 +1,8 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  /* ブラウザ独自の隙間をリセット */
+  margin: 0;
+  padding: 0;
+  /* box-sizingがcontent-boxがデフォルトでありcontentは扱いづらいため変更 */
+  box-sizing: border-box;
+}
