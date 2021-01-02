@@ -68,13 +68,9 @@ header .heading{ /* headerタグ内のheadingにのみ反映される書き方 *
 }
 
 .blog{
-  width: 600px;
-  height: 1400px;
 }
 
 .sidebar{
-  width: 240px;
-  height: 1400px;
 }
 
 footer{
