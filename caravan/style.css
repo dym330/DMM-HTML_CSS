@@ -8,34 +8,35 @@
   color: #6c6b6b;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-header{
+header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
 }
 
-header .heading{ /* headerタグ内のheadingにのみ反映される書き方 */
+header .heading {
+  /* headerタグ内のheadingにのみ反映される書き方 */
   font-size: 32px;
 }
 
-.nav-list{
+.nav-list {
   text-align: center;
   padding: 10px 0;
   margin: 0 auto;
 }
 
-.nav-list-item{
+.nav-list-item {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
 }
 
-.main-visual{
+.main-visual {
   width: 100%;
   height: 300px;
   background-image: url(img/mv.jpg);
@@ -43,7 +44,7 @@ header .heading{ /* headerタグ内のheadingにのみ反映される書き方 *
   background-position: center;
 }
 
-.main-visual-content{
+.main-visual-content {
   width: 40%;
   height: 300px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -51,29 +52,77 @@ header .heading{ /* headerタグ内のheadingにのみ反映される書き方 *
   padding-top: 105px;
 }
 
-.main-visual-text{
+.main-visual-text {
   color: #fff;
 }
 
-.main-visual-name{
+.main-visual-name {
   margin-top: 30px;
   color: #fff;
 }
 
-.main{
-  width: 840px;
-  display: flex;  /* flexboxの利用 */
+.main {
+  width: 800px;
+  display: flex; /* flexboxの利用 */
   justify-content: center;
   margin: 0 auto;
+  padding: 70px 0;
 }
 
-.blog{
+.blog {
+  width: 540px;
+  margin-right: 30px;
 }
 
-.sidebar{
+.blog-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
 }
 
-footer{
+.blog-box{
+  padding-top: 50px;
+}
+
+.blog-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.blog-image{
+  height: 180px;
+}
+
+.blog-text{
+  padding: 25px 0 0 30px;
+}
+
+.blog-text-heading {
+  padding-bottom: 15px;
+}
+
+.blog-date{
+  height: 12px;
+  display: inline-block;
+}
+
+.category{
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+
+.sidebar {
+  width: 230px;
+}
+
+footer {
   width: 100%;
   height: 120px;
   text-align: center;
@@ -81,6 +130,6 @@ footer{
   background-color: #848282;
 }
 
-.footer-text{
+.footer-text {
   color: #fff;
 }

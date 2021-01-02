@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top{
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  height: 400px;
+  background-position: bottom;
+  width: 100%;
+}
+
+h1{
+  color: rgb(128, 126, 125);
+  padding: 20px 0 0 20px;
+}
+
+main{
+  width: 840px;
+  /* border: solid; */
+  margin: 20px auto 50px auto;
+}
+
+section{
+  border-bottom: 2px solid #aaaaaa;
+  padding: 30px 0;
+}
