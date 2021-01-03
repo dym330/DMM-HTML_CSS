@@ -61,7 +61,7 @@ header .heading {
   color: #fff;
 }
 
-.main {
+main {
   width: 800px;
   display: flex; /* flexboxの利用 */
   justify-content: center;
